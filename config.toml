@@ -1,0 +1,40 @@
+baseURL = "https://visiteberlim.com/"
+title = "Maria Helena - Guia em Berlim"
+theme = "hugo-coder"
+languageCode = "pt-br"
+defaultContentLanguage = "pt"
+enableRobotsTXT = true
+
+[params]
+author = "Maria Helena"
+info = "Guia brasileira em Berlim"
+description = "Passeios em português para brasileiros em Berlim"
+avatarURL = "images/maria-helena.jpg"
+dateFormat = "02 Jan 2006"
+
+# Redes sociais (opcional)
+github = ""
+instagram = "https://instagram.com/visiteberlim"
+email = "mariahelena@visiteberlim.com"
+
+# Menus
+[[menu.main]]
+name = "Início"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Sobre"
+url = "/about/"
+weight = 2
+
+[[menu.main]]
+name = "Tours"
+url = "/tours/"
+weight = 3
+
+[[menu.main]]
+name = "Contato"
+url = "/contact/"
+weight = 4
+

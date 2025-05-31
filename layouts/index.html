@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <title>{{ .Title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0 auto;
+        padding: 2rem;
+        max-width: 800px;
+        background: #fff;
+        color: #222;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin: 1rem 0;
+        border-radius: 8px;
+      }
+      h1, h2, h3 {
+        color: #004080;
+      }
+      a {
+        color: #0066cc;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      nav {
+        margin-bottom: 2rem;
+        padding: 1rem;
+        background-color: #f5f5f5;
+        border-bottom: 1px solid #ddd;
+        text-align: center;
+      }
+      nav a {
+        margin: 0 1rem;
+        font-weight: bold;
+      }
+      footer {
+        margin-top: 3rem;
+        font-size: 0.9rem;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>{{ .Title }}</h1>
+      <nav>
+        <a href="/">Início</a>
+        <a href="/about/">Sobre</a>
+        <a href="/tours/">Tours</a>
+        <a href="/contact/">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      {{ .Content }}
+    </main>
+
+    <footer>
+      <hr>
+      <p>&copy; 2025 Maria Helena – <a href="https://www.instagram.com/visiteberlim/" target="_blank">@visiteberlim</a></p>
+    </footer>
+  </body>
+</html>
+
