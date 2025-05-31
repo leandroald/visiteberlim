@@ -4,7 +4,7 @@ title: "Bem-vindo a Berlim com Maria Helena"
 
 <!-- INÍCIO DO BLOCO EDITÁVEL -->
 
-## ## Guia Brasileira em Berlim: Maria Helena: Maria Helena Pedrosa
+## Guia Brasileira em Berlim
 
 ![Foto de perfil da guia](/images/mana_perfil.jpg)
 

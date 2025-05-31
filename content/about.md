@@ -40,7 +40,8 @@ Acompanhe os passeios e experiências da Maria Helena diretamente pelo canal:
 
 
 
-
+📸 Instagram: [@visiteberlim](https://www.instagram.com/visiteberlim/)
+📞 WhatsApp: [Fale com Maria Helena](https://wa.me/491756376770)
 
 <!-- FIM DO BLOCO EDITÁVEL -->
 
